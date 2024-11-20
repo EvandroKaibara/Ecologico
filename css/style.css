@@ -317,3 +317,61 @@ button{
 .footer--fiap{
     padding: 7vh 5vh;
 }
+
+.container--pages-img{
+    display: flex;
+    height: 30vh;
+    background-image: url(../imgs/BGIMG.png);
+    align-items: center;
+    justify-content: center;
+}
+
+.pages--title{
+    width: 60%;
+    color:#EFEEE9;
+    font-size: 50px;
+}
+
+.h2--title{
+    text-align: left;
+    font-size: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #1E400D;
+}
+
+.container--informacao-titulo{
+    padding: 5vh;
+}
+
+.container--informarcao{
+    padding: 0vh 10vh;
+}
+
+.ul--informacao{
+    font-size: 28px;
+    color: #1E400D;
+    padding: 5vh;
+    font-weight: lighter;
+}
+
+.img--informacao{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container--informarcao{
+    font-size: 28px;
+    color: #1E400D;
+    padding: 5vh;
+    font-weight: bold;
+}
+
+.h3--title{
+    text-align: left;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #1E400D;
+}
