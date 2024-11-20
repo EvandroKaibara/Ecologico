@@ -123,9 +123,49 @@ p{
 }
 
 .h1--posts{
-    padding: 10vh 190px;
+    padding: 15vh;
 }
 
+.posts{
+    padding: 2vh 10vh;
+    display: flex;
+}
+
+.post--card{
+    width: 30vh;
+    padding: 30px;
+}
+
+.img--post{
+    width: 30vh;
+    height: 20vh;
+}
+
+.post--link{
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+}
+
+.pre-btn, .nxt-btn{
+    border: none;
+    width: 5vw;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 9;
+}
+
+.pre-btn{
+    left: 0;
+    transform: rotate(180deg);
+}
+.nxt-btn{
+    right: 0;
+}
 
 .container--newsLetter{
     background-image: url(../imgs/Fundo\ 2.png);
