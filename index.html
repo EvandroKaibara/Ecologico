@@ -4,28 +4,97 @@
     <meta charset="UTF-8">
     <title>Ecologico</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <nav>
-
+        <img src="./imgs/Logo principal.png" class="img--logo">
+        <nav class="container--nav">
+            <div class="container--links">
+                <a href="#" class="a--links">Home</a>
+                <a href="#conteudo" class="a--links">Sobre nós</a>
+                <a href="#posts" class="a--links">Posts</a>
+            </div>            
         </nav>
     </header>
 
     <main>
-        <div class="container--texto">
-
+        <img src="./imgs/Fundo 1.png" class="img--fundo">
+        <div class="container--principios">
+            <h2>Nossos princípios</h2>
+            <div class="container--icones">                
+                <div class="container--principios-icone">
+                    <img src="./imgs/Princípios (1).png" class="img--icone">
+                    <span>Invação</span>
+                </div>
+                <div class="container--principios-icone">
+                    <img src="./imgs/Princípios (2).png" class="img--icone">
+                    <span>Educação</span>
+                </div>
+                <div class="container--principios-icone">
+                    <img src="./imgs/Princípios (3).png" class="img--icone">
+                    <span>Acessibilidade</span>
+                </div>
+                <div class="container--principios-icone">
+                    <img src="./imgs/Princípios (4).png" class="img--icone">
+                    <span>Consciência Ambiental</span>
+                </div>
+                <div class="container--principios-icone">
+                    <img src="./imgs/Princípios (5).png" class="img--icone">
+                    <span>Tranparência</span>
+                </div>
+            </div>
         </div>
-        <div class="container--posts">
 
-        </div>
-        <div class="container--newsLetter">
-
+        <section id="conteudo">
+            <div class="container--conteudo">
+                <div class="container--texto">
+                    <h1>SOBRE<br>NÓS</h1>
+                    <p>O EcoLógico é um blog que une sustentabilidade e tecnologia para promover o consumo consciente de energia. Nosso objetivo é informar e inspirar mudanças positivas, destacando os maiores consumidores de energia, dicas práticas para economizar e soluções inovadoras em Green IT e eficiência energética.</p><br>
+                    <p>Nosso compromisso é unir sustentabilidade (Eco) e tecnologia (Lógico) de forma harmônica, ajudando a transformar desafios ambientais em oportunidades para um mundo melhor.</p>
+                    <p>Acreditamos que pequenas ações podem gerar grandes impactos. Junte-se a nós e faça parte dessa transformação sustentável! 🌱</p>
+                </div>
+                <div class="container--img">
+                    <img src="./imgs/Mural de fotos.png" class="img--mural">
+                </div>
+            </div>        
+        </section>
+        <section id="posts">
+            <div class="container--posts">
+                <h1 class="h1--posts">Nossos posts</h1>
+            </div>
+        </section>
+            <div class="container--newsLetter">
+                <div class="container--grid">
+                    <div class="grid--item-1">FIQUE POR DENTRO</div>
+                    <div class="grid--item-2"></div>
+                    <div class="grid--item-3"></div>
+                    <div class="grid--item-4"></div>
+                    <div class="grid--item-5"></div>
+                    <div class="grid--item-6">Caminhe conosco para um futuro melhor</div>
+                    <div class="grid--item-7"></div>
+                    <div class="grid--item-8">Receba atualizações em tempo real dos nossos posts, se cadastrando abaixo</div>
+                </div>
+            <form action="submit" class="form--newsLetter">
+                <input type="email" placeholder="E-mail">
+                <input type="text" placeholder="Nome completo">
+                <button>CADASTRE-SE</button>
+            </form>
         </div>
     </main>
 
     <footer>
-
+        <div class="container--footer">
+            <div class="container--footer-logo">
+                <img src="./imgs/Logo 2.png" class="img--logo-footer">
+                <span class="span--footer">Sustentabilidade inteligente,<br> tecnologia consciente.</span>
+            </div>
+            <div class="footer--fiap">
+                <img src="./imgs/FIAP.png">
+            </div>
+        </div>
     </footer>
 </body>
 </html>
