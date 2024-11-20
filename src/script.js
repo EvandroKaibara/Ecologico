@@ -1,16 +1,18 @@
-const posts = [...document.querySelector('posts')];
-const nxtBtn = [...document,querySelectorAll('.nxt-btn')];
-const preBtn = [...document,querySelectorAll('.pre-btn')];
+const preBtn = document.querySelector('.pre-btn');
+const nxtBtn = document.querySelector('.nxt-btn');
+const posts = document.querySelector('.posts');
+const cardWidth = document.querySelector('.post--card').offsetWidth;
 
-posts.forEach((item,i)=>{
-    let dimensions = item.getBoundingClientRect();
-    let containerWidth =  dimensions.width;
+let currentScroll = 0;
+preBtn.addEventListener('click', () => {
+    currentScroll -= cardWidth * 4; 
+    if (currentScroll < 0) currentScroll = 1;
+    posts.style.transform = `translateX(-${currentScroll}px)`;
+});
 
-    nxtBtn[i].addEventListener('click',()=>{
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn[i].addEventListener('click',()=>{
-        item.scrollLeft -= containerWidth;
-    })
-})
+nxtBtn.addEventListener('click', () => {
+    const maxScroll = posts.scrollWidth - posts.offsetWidth;
+    currentScroll += cardWidth * 1; 
+    if (currentScroll > maxScroll) currentScroll = maxScroll;
+    posts.style.transform = `translateX(-${currentScroll}px)`;
+});

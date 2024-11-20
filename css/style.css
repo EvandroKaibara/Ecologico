@@ -123,17 +123,27 @@ p{
 }
 
 .h1--posts{
-    padding: 15vh;
+    padding: 5vh;
 }
 
 .posts{
     padding: 2vh 10vh;
     display: flex;
+    transition: transform 0.3s ease-in-out;
+    overflow-x: hidden;
+}
+
+.container--posts{
+    position: relative;
+    overflow: hidden;
 }
 
 .post--card{
     width: 30vh;
     padding: 30px;
+    flex: 0 0 300px;
+    margin: 0 10px;
+    scroll-snap-align: start;
 }
 
 .img--post{
