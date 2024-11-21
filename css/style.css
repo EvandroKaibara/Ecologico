@@ -91,7 +91,7 @@ h2{
     color: #D7CCB5;  
 }
 
-.container--conteudo{
+.container--conteudo, .container--pages-conteudo{
     display: flex;
     padding: 150px;
     border-bottom: 1px solid #587330;
@@ -112,10 +112,6 @@ h1{
 p{
     font-size: 28px;
     color: #1E400D;
-}
-
-.container--img{
-    cursor: pointer;
 }
 
 .img--mural{
@@ -318,7 +314,7 @@ button{
     padding: 7vh 5vh;
 }
 
-.container--pages-img{
+.container--img{
     display: flex;
     height: 30vh;
     background-image: url(../imgs/BGIMG.png);
@@ -356,9 +352,8 @@ button{
 }
 
 .img--informacao{
-    width: 100%;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 80%;
+    padding: 5% 10%;
 }
 
 .container--informarcao{
@@ -371,7 +366,17 @@ button{
 .h3--title{
     text-align: left;
     font-size: 30px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 15px 5px;
     color: #1E400D;
+}
+
+.p--informacao{
+    font-size: 25px;
+    color: #1E400D;
+    font-weight: 500;
+}
+
+.container--pages-texto{
+    width: 50%;
+    padding: 20px;
 }
