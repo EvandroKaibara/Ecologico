@@ -26,7 +26,6 @@ O desenvolvimento do site foi realizado com as seguintes tecnologias:
 - imgs: Reúne as imagens utilizadas em todo o projeto.
 - pages: Armazena as páginas dos posts, cada uma contendo o conteúdo específico de um blog.
 - src: Contém o arquivo JavaScript responsável pelo funcionamento do carrossel.
-
 Após a finalização do projeto, utilizamos a Vercel para hospedar o site, disponibilizando um link público para acesso.
 ---
 
@@ -50,7 +49,6 @@ Após a finalização do projeto, utilizamos a Vercel para hospedar o site, disp
 - HTML: Estruturar o grid utilizado na seção da Newsletter.
 - CSS: Utilizar corretamente as classes e manter a organização do código.
 - JavaScript: Desenvolver o carrossel sem o uso de bibliotecas externas.
-
 A maior dificuldade foi relacionada ao JavaScript, já que o conteúdo não foi abordado em sala de aula. Foi necessário realizar pesquisas extensivas para adaptar o código ao projeto. Apesar de ter encontrado a biblioteca de carrossel Swiper (uma solução simples e funcional), optamos por não utilizá-la para manter o projeto com JavaScript puro.
 ---
 
