@@ -99,7 +99,7 @@ h2{
 
 .container--texto{
     padding: 40px;
-    padding-right: 200px;
+    padding-right: 250px;
     width: 40%;
 }
 
@@ -316,7 +316,7 @@ button{
 
 .container--img{
     display: flex;
-    height: 30vh;
+    height: 40vh;
     background-image: url(../imgs/BGIMG.png);
     align-items: center;
     justify-content: center;
@@ -341,7 +341,7 @@ button{
 }
 
 .container--informarcao{
-    padding: 0vh 10vh;
+    padding: 20px;
 }
 
 .ul--informacao{
@@ -379,4 +379,5 @@ button{
 .container--pages-texto{
     width: 50%;
     padding: 20px;
+    margin-right: 40px;
 }
