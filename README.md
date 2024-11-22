@@ -1,4 +1,4 @@
-# Ecologio 
+# EcoLogico 
 ![Logo do Projeto](./imgs/Logo%20principal.png)
 Sustentabilidade inteligente, tecnologia consciente.
 ---
