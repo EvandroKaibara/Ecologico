@@ -7,7 +7,6 @@ Sustentabilidade inteligente, tecnologia consciente.
 
 O projeto foi iniciado do zero, sem nenhuma estrutura pré-montada, sendo desenvolvido durante uma semana utilizando o conteúdo apresentado em sala de aula e complementado por pesquisas externas para enriquecer o desenvolvimento.
 O tema central aborda os principais pontos sobre energia e sustentabilidade, com o objetivo de informar os usuários sobre como podemos melhorar o futuro.
-
 ## No site, temos as seguintes seções: 
 -Navegação: Área que contém os links principais da página, redirecionando o usuário para as demais seções.
 -Princípios: Apresentação dos princípios que seguimos e promovemos.
@@ -16,7 +15,6 @@ O tema central aborda os principais pontos sobre energia e sustentabilidade, com
 -Newsletter: Espaço destinado ao cadastro de usuários interessados em receber notícias sobre novos posts por e-mail.
 -Rodapé: Parte final da página, com informações adicionais.
 ---
-
 
 # Parte Técnica
 O desenvolvimento do site foi realizado com as seguintes tecnologias:
