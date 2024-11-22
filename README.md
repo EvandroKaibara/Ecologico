@@ -8,7 +8,7 @@ Sustentabilidade inteligente, tecnologia consciente.
 O projeto foi iniciado do zero, sem nenhuma estrutura pré-montada, sendo desenvolvido durante uma semana utilizando o conteúdo apresentado em sala de aula e complementado por pesquisas externas para enriquecer o desenvolvimento.
 O tema central aborda os principais pontos sobre energia e sustentabilidade, com o objetivo de informar os usuários sobre como podemos melhorar o futuro.
 
-No site, temos as seguintes seções: 
+## No site, temos as seguintes seções: 
 -Navegação: Área que contém os links principais da página, redirecionando o usuário para as demais seções.
 -Princípios: Apresentação dos princípios que seguimos e promovemos.
 -Sobre nós: Uma descrição do site e o que ele se propõe a apresentar.
@@ -23,7 +23,7 @@ O desenvolvimento do site foi realizado com as seguintes tecnologias:
 -HTML e CSS: Utilizados para a estruturação e estilização das páginas.
 -JavaScript: Empregado no desenvolvimento do carrossel, permitindo o controle dos botões e a centralização das imagens.
 
-As pastas do projeto foram organizadas da seguinte forma:
+## As pastas do projeto foram organizadas da seguinte forma:
 -css: Contém o arquivo de estilo, com comentários explicativos para cada bloco da página.
 -imgs: Reúne as imagens utilizadas em todo o projeto.
 -pages: Armazena as páginas dos posts, cada uma contendo o conteúdo específico de um blog.
@@ -33,23 +33,22 @@ Após a finalização do projeto, utilizamos a Vercel para hospedar o site, disp
 ---
 
 # Dependencias do Projeto
-As dependências para utilizar o projeto são mínimas:
+##  As dependências para utilizar o projeto são mínimas:
 -Um link de hospedagem para acesso ao site.
 -O repositório no GitHub, caso seja necessário acessar o código. O repositório pode ser clonado ou baixado.
-
-As dependências técnicas incluem:
+##  As dependências técnicas incluem:
 -O carrossel, que depende do JavaScript para funcionar.
 -A estilização da página, que depende do arquivo CSS.
 ---
 
 # Restrições do Projeto
-O projeto possui algumas limitações:
+## O projeto possui algumas limitações:
 -As páginas não são responsivas, funcionando apenas em um tamanho fixo.
 -A funcionalidade de envio de e-mails no campo da Newsletter não está implementada; apenas a validação do formulário (e-mail e nome) funciona.
 ---
 
 # Dificuldades Durante o Desenvolvimento
-As dificuldades encontradas durante o desenvolvimento, por linguagem, foram:
+## As dificuldades encontradas durante o desenvolvimento, por linguagem, foram:
 -HTML: Estruturar o grid utilizado na seção da Newsletter.
 -CSS: Utilizar corretamente as classes e manter a organização do código.
 -JavaScript: Desenvolver o carrossel sem o uso de bibliotecas externas.
@@ -62,7 +61,7 @@ A equipe demonstrou grande comprometimento durante todo o processo, desde a conc
 ---
 
 # Planos Futuros
-Com o objetivo de expandir o site no futuro, os planos incluem:
+## Com o objetivo de expandir o site no futuro, os planos incluem:
 -Tornar as páginas responsivas.
 -Implementar totalmente a funcionalidade do campo Newsletter.
 -Adicionar um campo de comentários.
