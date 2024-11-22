@@ -1,7 +1,12 @@
-# EcoLogico 
+# EcoLógico 
 ![Logo do Projeto](./imgs/Logo%20principal.png)
 Sustentabilidade inteligente, tecnologia consciente.
 ---
+
+# Membros do Projeto
+Evandro Yuji Kaibara de Oliveira RM:559274
+Ícaro de Oliveira Santos RM:559464
+Yasmin Baracat RM:559274
 
 # Objetivo do Projeto
 
