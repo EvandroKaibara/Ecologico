@@ -8,13 +8,18 @@
     --backgroud-color: #efeee9;
 }
 
+/* Configurações padrões da pagina */
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #efeee9;
+    background-color: var(--backgroud-color);
 }
+
+/* _________________________________________________________________________________________________________________________________________________________________________________ */
+
+/* Header */
 
 header {
     font-family: var(--primary-font);
@@ -25,6 +30,8 @@ header {
 .img--logo {
     height: 10vh;
 }
+
+/* Header - Navegação */
 
 .container--nav {
     display: flex;
@@ -45,6 +52,10 @@ header {
     padding: 50px 100px;
 }
 
+/* _________________________________________________________________________________________________________________________________________________________________________________ */
+
+/* Main */
+
 main {
     font-family: var(--primary-font);
 }
@@ -55,6 +66,8 @@ main {
     height: 55vh;
     gap: 0;
 }
+
+/* Configurações - Pinricipios */
 
 h2 {
     text-align: center;
@@ -91,6 +104,8 @@ h2 {
     color: #D7CCB5;
 }
 
+/* Conteúdo-Sobre Nos */
+
 .container--conteudo,
 .container--pages-conteudo {
     display: flex;
@@ -118,6 +133,8 @@ p {
 .img--mural {
     height: 650px;
 }
+
+/* Carrossel de posts */
 
 .h1--posts {
     padding: 5vh;
@@ -177,6 +194,8 @@ p {
 .nxt-btn {
     right: 0;
 }
+
+/* Configurações de cadastro para noticias */ 
 
 .container--newsLetter {
     background-image: url(../imgs/Fundo\ 2.png);
@@ -290,6 +309,10 @@ input::placeholder {
     margin: 20px;
 }
 
+/* _________________________________________________________________________________________________________________________________________________________________________________ */
+
+/* Footer */
+
 .container--footer {
     display: flex;
     justify-content: space-between;
@@ -318,6 +341,10 @@ input::placeholder {
 .footer--fiap {
     padding: 7vh 5vh;
 }
+
+/* _________________________________________________________________________________________________________________________________________________________________________________ */
+
+/* Configurações dos posts em outras paginas */
 
 .container--img {
     display: flex;
