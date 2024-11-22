@@ -17,15 +17,16 @@ O tema central aborda os principais pontos sobre energia e sustentabilidade, com
 ---
 
 # Parte Técnica
-O desenvolvimento do site foi realizado com as seguintes tecnologias:
--HTML e CSS: Utilizados para a estruturação e estilização das páginas.
--JavaScript: Empregado no desenvolvimento do carrossel, permitindo o controle dos botões e a centralização das imagens.
+## O desenvolvimento do site foi realizado com as seguintes tecnologias:
+- HTML e CSS: Utilizados para a estruturação e estilização das páginas.
+- JavaScript: Empregado no desenvolvimento do carrossel, permitindo o controle dos botões e a centralização das imagens.
 
 ## As pastas do projeto foram organizadas da seguinte forma:
 - css: Contém o arquivo de estilo, com comentários explicativos para cada bloco da página.
 - imgs: Reúne as imagens utilizadas em todo o projeto.
 - pages: Armazena as páginas dos posts, cada uma contendo o conteúdo específico de um blog.
 - src: Contém o arquivo JavaScript responsável pelo funcionamento do carrossel.
+
 Após a finalização do projeto, utilizamos a Vercel para hospedar o site, disponibilizando um link público para acesso.
 ---
 
@@ -49,6 +50,7 @@ Após a finalização do projeto, utilizamos a Vercel para hospedar o site, disp
 - HTML: Estruturar o grid utilizado na seção da Newsletter.
 - CSS: Utilizar corretamente as classes e manter a organização do código.
 - JavaScript: Desenvolver o carrossel sem o uso de bibliotecas externas.
+
 A maior dificuldade foi relacionada ao JavaScript, já que o conteúdo não foi abordado em sala de aula. Foi necessário realizar pesquisas extensivas para adaptar o código ao projeto. Apesar de ter encontrado a biblioteca de carrossel Swiper (uma solução simples e funcional), optamos por não utilizá-la para manter o projeto com JavaScript puro.
 ---
 
